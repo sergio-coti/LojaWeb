@@ -1,4 +1,24 @@
-body {
-    font-family: arial;
-    padding: 40px;
+.card img {
+    height: 200px;
+    object-fit: contain;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+.btn-buy {
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+
+.btn-buy:hover {
+    background-color: #0056b3;
+    color: white;
 }
